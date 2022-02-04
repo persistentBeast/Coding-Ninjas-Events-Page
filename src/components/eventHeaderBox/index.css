@@ -1,0 +1,23 @@
+.EventHeaderBox{
+
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border: 1px solid rgba(224, 221, 193, 0.904);
+
+}
+
+.EventHeaderBoxitem{
+    /* flex-grow: 1; */
+    flex-basis: 18%;
+    text-align: center;
+    color : rgb(150, 149, 149);
+    font-size: large;
+    font-family: Mulish,Helvetica,Arial,sans-serif;
+    font-weight:normal;
+    cursor: pointer;
+}
+
+.Selected-EventCategory{
+    color: rgb(238, 119, 34);
+}

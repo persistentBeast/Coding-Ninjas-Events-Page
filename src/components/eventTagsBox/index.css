@@ -1,0 +1,38 @@
+.Tags-Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 19px 0 rgb(0 0 0 / 7%);
+}
+
+.Tags{
+    color: #424242;
+    font-family: Mulish,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: 400;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background: #eee;
+    cursor: pointer;
+    
+}
+
+.Tags-Selected{
+    background-color: coral;
+    color: white;
+}
+
+.Tags-Container-Header{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #616161;
+    margin-bottom: 14px;
+    flex-basis: 100%;
+}
+

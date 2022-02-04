@@ -1,0 +1,17 @@
+.EventContainer{
+
+    background: #faf7f2;
+    border: 1px solid black;
+  
+  }
+
+  .EventContainer-Content{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }

@@ -1,0 +1,7 @@
+.EventBox{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1000px;
+}
