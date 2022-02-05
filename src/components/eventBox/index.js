@@ -14,10 +14,14 @@ class EventBox extends Component{
     render(){
         return (
             <div className="EventBox">
-                {this.props.eventDetails.map((event)=>{
+
+                
+                {(this.props.eventDetails.length==0) ? (<div className="EventContainer-Content"><h2 className = "NoEvents-Message">Sorry!! No Events available currently. Please Check later.</h2></div>) : (this.props.eventDetails.map((event)=>{
                     return generateEventCard(event);
-                })
-                }
+                }))}              
+
+                
+                
             </div>
         );
         

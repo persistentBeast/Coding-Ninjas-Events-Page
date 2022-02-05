@@ -40,7 +40,7 @@ function generateEventCard(props){
                    {registered_users.top_users.map((user)=>{
                        return <img className = "event-footer-item-userimg" src={user.image_url}/>
                    })}
-                   {(registered_users.other_users_count!==0)?<span>and <b>{registered_users.other_users_count} </b>are participating.</span> : <span>No participants.</span>}
+                   {(registered_users.other_users_count!==0)?<span>and <b>{registered_users.other_users_count} </b> others are participating.</span> : <span>No participants.</span>}
                 </div>
                 <div className="event-footer-item">
                     <button className="event-footer-button">Register Now</button>
