@@ -15,7 +15,7 @@ function generateEventCard(props){
             </div>
             <div className="event-details">
                 <div className="event-details-item">
-                    Starts On <span>27 Feb 2022</span>
+                    Starts On <span>{event_start_time}</span>
                 </div>
                 <div className="event-details-item">
                     Entry Fee <span>{fees==0 ? "Free" : fees}</span>
