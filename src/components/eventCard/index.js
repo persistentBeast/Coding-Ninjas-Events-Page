@@ -15,7 +15,7 @@ function generateEventCard(props){
             </div>
             <div className="event-details">
                 <div className="event-details-item">
-                    Starts On <span>{event_start_time}</span>
+                    Starts On <span>{new Date(event_start_time * 1000).toLocaleString()}</span>
                 </div>
                 <div className="event-details-item">
                     Entry Fee <span>{fees==0 ? "Free" : fees}</span>
